@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MLKitFirebase</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="detect">Detect</string>
+    <string name="clear">Clear</string>
+    <string name="paste">Paste</string>
 </resources>
