@@ -4,4 +4,7 @@
     <string name="detect">Detect</string>
     <string name="clear">Clear</string>
     <string name="paste">Paste</string>
+    <string name="sample_url">
+        https://66.media.tumblr.com/25fd7151d4693061a28eda47b1b92b28/tumblr_pkqstkQ5vj1rogvb0o1_1280.jpg
+    </string>
 </resources>

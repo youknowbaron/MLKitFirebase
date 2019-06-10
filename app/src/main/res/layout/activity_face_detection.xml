@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".face.FaceDetectionActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView"
@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:maxLines="1"
         android:singleLine="true"
+        android:text="@string/sample_url"
         app:layout_constraintEnd_toStartOf="@id/btnClearText"
         app:layout_constraintStart_toEndOf="@id/btnPaste"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btnDetect" />
 
-    <vn.com.baron.mlkitfirebase.GraphicOverlay
+    <vn.com.baron.mlkitfirebase.face.GraphicOverlay
         android:id="@+id/graphicOverlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

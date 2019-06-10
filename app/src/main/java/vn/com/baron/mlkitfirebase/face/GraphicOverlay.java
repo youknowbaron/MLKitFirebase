@@ -1,4 +1,4 @@
-package vn.com.baron.mlkitfirebase;
+package vn.com.baron.mlkitfirebase.face;
 
 import android.content.Context;
 import android.graphics.Canvas;
